@@ -71,7 +71,7 @@ Know your way around
 4. :code:`git status` shows the file names, :code:`git diff --cached` shows the actual modifications
 5. :code:`git status` tells you that a *rebase is in progress* together with branch information and conflicts. Also, if configured, your prompt will show you something like :code:`(git)-[branch-name|rebase]`
 6. :code:`git status` tells you that you have *unmerged paths* . Also, if configured, your prompt will show you something like :code:`(git)-[branch-name|merge]`
-7. :code:`git status` tells you the difference between your local branch and remote branch if tracking one (shown in commits). It says nothing if not tracking any remote branch.
+7. :code:`git status` tells you the difference between your local branch and remote branch if tracking one (shown in commits). It says nothing if not tracking any remote branch. Alternatively, you can do :code:`git checkout`.
 
    7.1 :code:`git status` tells you that already
 8. :code:`git stash list` shows all the stash entries.
